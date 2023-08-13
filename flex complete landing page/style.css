@@ -54,7 +54,7 @@ ul {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1960px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
 }
@@ -107,6 +107,7 @@ ul {
     background-image: url('./assets/asset\ 32.png');
     background-size: 300px;
 }
+
 .banner-text {
     color: white;
     padding: 15px 30px;
