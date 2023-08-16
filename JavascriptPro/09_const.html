@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript const</title>
+</head>
+<body>
+    <h2>Javascript</h2>
+    <p>Declaring a constant array does not make the elements unchangeable:</p>
+    <p id="demo"></p>
+</body>
+<script>
+    // Create an array
+    const cars = ["Sandeep", "Akash", "Volvo"];
+    //change an elements
+    cars[0] = "Singh";
+    //add an elements
+    cars.push("Yadav");
+
+    //Display the array
+    document.getElementById("demo").innerHTML = cars;
+</script>
+
+<script>
+    try {
+        alert(carName);
+        const carName = "Volvo";
+    } catch(err) {
+        document.getElementById("demo").innerHTML = err;
+    }
+</script>
+</html>
