@@ -1,7 +1,7 @@
 body {
    background-color: aqua;
 }
-
+/* form-class */
 .form-class {
     padding: 10px;
     place-items: center;
@@ -34,7 +34,7 @@ a {
     font-size: 20px;
     font-weight: bold;
 }
-
+/* container */
 .container {
     width: 400px;
     background-color: #145f79;
