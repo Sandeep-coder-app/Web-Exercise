@@ -1,8 +1,7 @@
-var x = typeof("Akash");
-var y = typeof("Akash");
+var x = typeof ("Akash");
+var y = typeof ("Akash");
 
-if(x == y) 
-{
+if (x == y) {
     console.log("Hello, World");
 } else {
     console.log("Bye, Bye");
