@@ -4,5 +4,5 @@ var y = typeof ("Akash");
 if (x == y) {
     console.log("Hello, World");
 } else {
-    console.log("Bye, Bye");
+    console.log("Bye, Bye")
 }
