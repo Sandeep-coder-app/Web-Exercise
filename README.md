@@ -11,7 +11,7 @@
 
 ##HTML
 
-''' html
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -242,4 +242,4 @@
 </body>
 <script src="script.js"></script>
 </html>
-'''
+```
