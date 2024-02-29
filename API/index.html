@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+</head>
+<body style="background: #212121; color: #fff;">
+    <h1 id="title"></h1>
+</body>
+<script>
+    const key = 'https://jsonplaceholder.typicode.com/todos/1'
+    let dataList = document.getElementById('title')
+    const listItem = document.createElement('h1')
+
+    // async function getUser() {
+    //     try {
+    //         const response = await fetch(key)
+    //         const data = await response.json()
+    //         listItem.textContent = data.title
+    //         dataList.appendChild(listItem)
+    //         console.log(data.userId);
+    //         console.log("Success");
+    //     } catch (error) {
+    //         console.log("E: ", error);
+    //     }
+    // }
+
+    // getUser()
+
+    fetch(key)
+    .then( (res) => {
+        return res.json()
+    })
+    .then((data) => {
+        listItem.textContent = data.title
+        dataList.appendChild(listItem)
+        console.log("success");
+    })
+    .catch ((error) => console.log(error))
+</script>
+</html>
