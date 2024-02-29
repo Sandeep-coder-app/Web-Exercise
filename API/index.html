@@ -35,6 +35,7 @@
     .then((data) => {
         listItem.textContent = data.title
         dataList.appendChild(listItem)
+        console.log(data);
         console.log("success");
     })
     .catch ((error) => console.log(error))
