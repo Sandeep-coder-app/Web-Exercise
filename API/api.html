@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Details</title>
+</head>
+<body>
+    <h1>Task Details</h1>
+    <div id="taskDetails">
+        <!-- Task details will be inserted here -->
+    </div>
+
+    <script>
+        // Provided JSON data
+        var jsonData = {
+            "userId": 1,
+            "id": 1,
+            "title": "delectus aut autem",
+            "completed": false
+        };
+
+        // Accessing the elements
+        var taskDetailsDiv = document.getElementById('taskDetails');
+
+        // Creating HTML elements to display task details
+        var userIdParagraph = document.createElement('p');
+        userIdParagraph.textContent = "User ID: " + jsonData.userId;
+
+        var idParagraph = document.createElement('p');
+        idParagraph.textContent = "Task ID: " + jsonData.id;
+
+        var titleParagraph = document.createElement('p');
+        titleParagraph.textContent = "Title: " + jsonData.title;
+
+        var completedParagraph = document.createElement('p');
+        completedParagraph.textContent = "Completed: " + (jsonData.completed ? "Yes" : "No");
+
+        // Appending elements to the taskDetails div
+        taskDetailsDiv.appendChild(userIdParagraph);
+        taskDetailsDiv.appendChild(idParagraph);
+        taskDetailsDiv.appendChild(titleParagraph);
+        taskDetailsDiv.appendChild(completedParagraph);
+    </script>
+</body>
+</html>
