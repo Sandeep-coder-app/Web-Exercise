@@ -1,0 +1,16 @@
+/* body {
+    margin: 0;
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    padding: 30px;
+    margin: 40px;
+}
