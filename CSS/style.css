@@ -1,0 +1,14 @@
+main {
+    border: 5px solid brown;
+    /* width: 50%; */
+    width: 25%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    border: 5px dashed green;
+    width: 50vw;
+}
