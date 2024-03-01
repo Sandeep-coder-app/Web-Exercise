@@ -1,0 +1,18 @@
+.container {
+    margin: 100px  auto;
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    /* transition: 2s; */
+    transition-duration: 0.3s;
+    transition-property: all;
+    /* transition-delay: 1s; */
+    transition-timing-function: linear;
+}
+
+.container:hover {
+    background-color: grey;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    padding: ;
+}
