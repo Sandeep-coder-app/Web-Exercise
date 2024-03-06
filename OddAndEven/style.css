@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #212121;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container input {
+    width: 200px; /* Adjust width as needed */
+    padding: 8px; /* Optional: Adjust padding */
+    border: 1px solid #ccc;
+}
+
+.container #submit {
+    padding: 8px 16px; /* Optional: Adjust padding */
+    background-color: #007bff; /* Optional: Button background color */
+    color: white; /* Optional: Button text color */
+    border: none; 
+    cursor: pointer;
+}
+
+#result {
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    color: #fff;
+}

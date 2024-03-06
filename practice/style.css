@@ -1,0 +1,28 @@
+.inline-container:nth-child(odd) input {
+  background-color: lightblue;
+}
+
+.inline-container:nth-child(even) input {
+  background-color: lightgreen;
+}
+
+.inline-container:nth-child(odd) button {
+  background-color: blue;
+  color: white;
+}
+
+.inline-container:nth-child(even) button {
+  background-color: green;
+  color: white;
+}
+
+/* Additional styling for better visualization */
+.inline-container {
+  margin-bottom: 10px;
+}
+
+input, button {
+  padding: 8px;
+  border: none;
+  margin-right: 5px;
+}
